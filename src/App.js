@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>Counter App</h1>
-      <h2>Count Number: {count}</h2>
+      <h2>Count: {count}</h2>
       <div className="btnContainer">
         <button onClick={handleIncrement}>+</button>
         <button onClick={handleDecrement}>-</button>
