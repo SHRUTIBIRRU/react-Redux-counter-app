@@ -13,10 +13,11 @@ export default function App() {
   return (
     <div className="App">
       <h1>Counter App</h1>
-      <div></div>
       <h2>Count Number: {count}</h2>
-      <button onClick={handleIncrement}>+</button>
-      <button onClick={handleDecrement}>-</button>
+      <div className="btnContainer">
+        <button onClick={handleIncrement}>+</button>
+        <button onClick={handleDecrement}>-</button>
+      </div>
     </div>
   );
 }
